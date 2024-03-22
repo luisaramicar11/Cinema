@@ -1,0 +1,77 @@
+/******************Reseteo del Modelo de Caja******************/
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+    margin:0;
+    padding: 0;
+}
+/******************Estilos Header******************/
+.buscador{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.buscador img{
+    color:#ffff;
+}
+
+.buscador input{
+    border-radius: 1rem;
+    border: thick solid #0000;
+}
+
+.header{
+    display: flex;
+    background-color: #2d2c2c;
+    height: 5rem;
+}
+
+.header-menu-logo{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.header-menu-logo img{
+    height: 2.5rem;
+}
+
+.header-navegacion{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.header-navegacion ul{
+    font-weight: bold;
+    color:#ffff;
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    gap:5rem;
+    font-size: 1.2rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+    font-weight: bold;
+    color:#ffff;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
